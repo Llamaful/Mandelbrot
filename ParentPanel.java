@@ -13,7 +13,8 @@ public class ParentPanel extends JPanel {
 
     JPanel settings = new JPanel();
     settings.setSize(700, 100);
-
+    
+    /*
     JButton reset = new JButton("Reset Zoom");
     reset.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
@@ -76,6 +77,7 @@ public class ParentPanel extends JPanel {
       }
     });
     settings.add(presets);
+    */
 
     add(settings, BorderLayout.SOUTH);
   }
